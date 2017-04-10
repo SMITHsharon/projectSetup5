@@ -26,15 +26,26 @@ $("#print").click(function (){
 
 function writeToDOM () {
 
-var imageString = "";
- 
-  for (var i=0; i<picArray.length; i++) {
-    imageString += `<div class="imageContainer" id="image$(i)">`;
-    imageString += `<div class="eachimage">`;
-    imageString += `<img class="thisImage" src="${picArray[i].image}">`;
-    imageString += `</div></div>`;
-  }
-  $(".container").append(imageString);
+	var imageString = `<div class="row align-items-start" id="image$(i)">`;
+	var colCounter = 0;
+
+	for (var i=0; i<picArray.length; i++) {
+	    
+	    imageString += `<div class="eachimage col-sm-3 col">`;
+	    imageString += `<img class="thisImage" src="${picArray[i].image}">`;
+	    imageString += `</div>`;
+  
+  		colCounter += 1;
+			if (colCounter === 3) { /// wraps this row
+
+				tableString += `</div>`; // end of row
+				tableString += `<div class="row">`;
+				colCounter = 0;
+			} // colCounter <if> 
+	} // <for> loop
+
+	imageString += `</div>`;
+	$(".container").append(imageString);
 }
 
 
