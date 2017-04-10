@@ -1,7 +1,17 @@
 
 var picArray = [
-{image: './images/0_waitLongEnough.jpg'},
-{image: './images/1_blazingSun.jpg'},
+	{image: './images/0_waitLongEnough.jpg'},
+	{image: './images/1_blazingSun.jpg'},
+	{image: './images/2_graytonBeachBenPearson.png'},
+	{image: './images/3_chartresCathedral.jpg'},
+	{image: './images/4_springFlowersRohanNag.png'},
+	{image: './images/5_pantatonix.png'},
+
+	{image: './images/6_cowsStaycationQuinnPerkins.png'},
+
+	{image: './images/7_cakeZaiMoini.png'},
+	{image: './images/8_baldwinTrump.png'},
+	{image: './images/9_moviejournalists.png'},
 ];
 
 
@@ -36,12 +46,12 @@ function writeToDOM () {
 	    imageString += `</div>`;
   
   		colCounter += 1;
-			if (colCounter === 3) { /// wraps this row
+		if (colCounter === 3) { /// wraps this row
 
-				tableString += `</div>`; // end of row
-				tableString += `<div class="row">`;
-				colCounter = 0;
-			} // colCounter <if> 
+			imageString += `</div>`; // end of row
+			imageString += `<div class="row">`;
+			colCounter = 0;
+		} // colCounter <if> 
 	} // <for> loop
 
 	imageString += `</div>`;

@@ -16,20 +16,29 @@ h1 {
 }
 
 
-.thisImage {
-  max-height: 250px;
-  max-width: 33%;
+.container {
+  margin-top: 5%;
+  max-width: 90%
+  padding-right: 5%;
 }
 
-/*#asking {
-	margin-top: 5%;
-}*/
+
+.row {
+  margin-top: 5%;
+  max-width: 90%`;
+  padding-right: 5%;
+}
 
 
-/*#pPuffGirls, #pPuffFighting, #winner {
-  margin-top: 2%;
-  margin-left: 29%;
-}*/
+.eachImage {
+  /*max-height: 250px;*/
+  max-width: 33%;
+  padding-right: 5%;
+}
+
+.thisImage {
+  max-width: 90%;
+}
 
 
 #print {
@@ -37,21 +46,6 @@ h1 {
   margin-left: 68%;
 }
 
-
-/*#pPuffFighting {
-  margin-top: 10%;
-}*/
-
-
-/*#buttonDiv, #whoWins, #action {
-	margin: 2%;
-	margin-left: 15%;
-}*/
-
-/*#action {
-  margin-top: 4%;
-}
-*/
 
 .hidden {
 	display: none;
