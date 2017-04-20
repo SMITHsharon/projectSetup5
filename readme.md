@@ -27,9 +27,9 @@ This assignment is the last of five, to walk through the Project Setup process t
 - Ran `Grunt` in the background in a separate terminal window while developing the printArray application
 
 #### `Bootstrap` and `jQuery`
-- Used Bootstrap to define the row and column structure to output the images to the DOM. 
-- Wrote the event handlers using `jQuery`. 
-- After building the `html` string using `JavaScript`, wrote the images to the DOM using `jQuery`. 
+- Uses Bootstrap to define the row and column structure to output the images to the DOM. 
+- Writes the event handlers using `jQuery`. 
+- After building the `html` string using `JavaScript`, writes the images to the DOM using `jQuery`. 
 
 
 ### Technologies Used
@@ -51,9 +51,9 @@ bower install
 npm install
 npm install http-server -g
 http-server -p 8080
+This will show in your browser at: http://localhost:8080
 ```
 
-This will show in your browser at: `http://localhost:8080`
 
 ### Contributor
 [Sharon Smith](https://github.com/SMITHsharon)
