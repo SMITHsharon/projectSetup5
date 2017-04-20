@@ -27,7 +27,7 @@ This assignment is the last of five, to walk through the Project Setup process t
 - Ran `Grunt` in the background in a separate terminal window while developing the printArray application
 
 #### `Bootstrap` and `jQuery`
-- Uses Bootstrap to define the row and column structure to output the images to the DOM. 
+- Uses Bootstrap to define the row and column grid structure to output the images to the DOM. 
 - Writes the event handlers using `jQuery`. 
 - After building the `html` string using `JavaScript`, writes the images to the DOM using `jQuery`. 
 
